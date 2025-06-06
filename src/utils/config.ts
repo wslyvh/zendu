@@ -1,9 +1,8 @@
 export const APP_EMOJI = "🤖";
 export const APP_NAME = "Zendu";
 export const APP_DESCRIPTION = "Building momentum, one day at a time.";
-export const APP_DOMAIN = process.env.NEXT_PUBLIC_APP_DOMAIN || "withzendu.com";
-export const APP_URL =
-  process.env.NEXT_PUBLIC_APP_URL || `https://${APP_DOMAIN}`;
+export const APP_DOMAIN = "withzendu.com";
+export const APP_URL = `https://www.${APP_DOMAIN}`;
 
 // More info // https://miniapps.farcaster.xyz/docs/specification#frame
 export const APP_ICON = `${APP_URL}/icon.png`; // 1024 x 1024 for Farcaster
