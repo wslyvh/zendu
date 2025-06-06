@@ -11,7 +11,7 @@ export function Newsletter(props: Props) {
       <div className="flex flex-col gap-4 items-center hero-content text-center">
         <div>
           <h1 className="text-2xl font-bold">Stay up to date with Zendu?</h1>
-          <p className="py-6">
+          <p className="pt-6 pb-4">
             Subscribe to be the first to know when Zendu launches.
           </p>
         </div>

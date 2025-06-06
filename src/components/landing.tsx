@@ -13,9 +13,9 @@ export default function LandingPage() {
   const addFrame = useAddFrame();
 
   return (
-    <main className="min-h-screen">
+    <main className="">
       {/* Hero Section */}
-      <section className="max-w-2xl mx-auto pt-16 pb-12 text-center">
+      <section className="max-w-2xl mx-auto py-16 text-center">
         <h1 className="text-3xl md:text-5xl font-serif font-bold mb-6 leading-tight text-gray-800">
           Embrace imperfection.
           <br />
