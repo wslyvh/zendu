@@ -1,8 +1,7 @@
-export const APP_EMOJI = "💦";
-export const APP_NAME = "Fapp Starter";
-export const APP_DESCRIPTION = "Quickly ship Farcaster Apps";
-export const APP_DOMAIN =
-  process.env.NEXT_PUBLIC_APP_DOMAIN || "fapp.nexth.dev";
+export const APP_EMOJI = "🤖";
+export const APP_NAME = "Zendu";
+export const APP_DESCRIPTION = "Building momentum, one day at a time.";
+export const APP_DOMAIN = process.env.NEXT_PUBLIC_APP_DOMAIN || "withzendu.com";
 export const APP_URL =
   process.env.NEXT_PUBLIC_APP_URL || `https://${APP_DOMAIN}`;
 
@@ -25,6 +24,6 @@ export const FARCASTER_ACCOUNT_ASSOCIATION = {
 
 export const SOCIAL_TWITTER = "wslyvh";
 export const SOCIAL_FARCASTER = "wslyvh.eth";
-export const SOCIAL_GITHUB = "wslyvh/fapp-starter";
+export const SOCIAL_GITHUB = "wslyvh/zendu";
 
 export const DEFAULT_CACHE_TIME = 24 * 60 * 60 * 1000; // 24-hrs (e.g. user context)

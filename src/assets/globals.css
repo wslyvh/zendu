@@ -1,5 +1,19 @@
 @import "tailwindcss";
 @import "tailwindcss";
+
 @plugin "daisyui" {
-  themes: dark --default
+  themes: retro --default
+}
+
+[data-theme="retro"],
+:root {
+  --b1: #f0e5df !important;
+  --b2: #e0d5cf !important;
+  --base-100: #e0d5cf !important;
+  --base-200: #c0b7b2 !important;
+  --base-300: #a09792 !important;
+}
+
+body {
+  background-color: #f0e5df;
 }

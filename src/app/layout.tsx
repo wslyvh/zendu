@@ -62,8 +62,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout(props: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body className={`antialiased`}>
+    <html lang="en" data-theme="retro">
+      <body className="antialiased">
         <Providers>
           <Layout>{props.children}</Layout>
         </Providers>

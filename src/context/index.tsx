@@ -1,11 +1,14 @@
 import { PropsWithChildren } from "react";
-import { QueryProvider } from "./query";
+import { AnalyticsProvider } from "./analytics";
 import { FarcasterProvider } from "./farcaster";
+import { QueryProvider } from "./query";
 
 export function Providers(props: PropsWithChildren) {
   return (
-    <QueryProvider>
-      <FarcasterProvider>{props.children}</FarcasterProvider>
-    </QueryProvider>
+    <AnalyticsProvider>
+      <QueryProvider>
+        <FarcasterProvider>{props.children}</FarcasterProvider>
+      </QueryProvider>
+    </AnalyticsProvider>
   );
 }
