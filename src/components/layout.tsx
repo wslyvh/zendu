@@ -16,7 +16,9 @@ export function Layout(props: PropsWithChildren) {
       </main>
 
       <footer className="flex flex-col items-center justify-center mt-8 p-4 gap-2">
-        <p className="text-sm text-base-content/50">{APP_DESCRIPTION}</p>
+        <p className="text-sm text-base-content/50">
+          Built with care for creators.
+        </p>
         <p className="flex gap-4">
           <Link
             href={`https://www.github.com/${SOCIAL_GITHUB}`}
