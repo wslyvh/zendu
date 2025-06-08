@@ -15,8 +15,8 @@ export default function LandingPage() {
           Progress over perfection
         </h2>
         <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-600">
-          Zendu's philosophy is simple: embrace imperfection, celebrate small
-          wins, and keep moving forward. We believe that consistent daily
+          Zendu&apos;s philosophy is simple: embrace imperfection, celebrate
+          small wins, and keep moving forward. We believe that consistent daily
           progress, no matter how small, creates lasting transformation.
         </p>
 
@@ -26,7 +26,7 @@ export default function LandingPage() {
             <div className="bg-green-400/90 rounded-xl p-4 mb-4 shadow-md">
               <Target className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Consistency</h3>
+            <h3 className="text-xl font-bold my-2">Consistency</h3>
             <p className="max-w-xs text-gray-600">
               Small daily actions that compound into extraordinary results over
               time.
@@ -38,7 +38,7 @@ export default function LandingPage() {
             <div className="bg-blue-500/90 rounded-xl p-4 mb-4 shadow-md">
               <Zap className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Focus</h3>
+            <h3 className="text-xl font-bold my-2">Focus</h3>
             <p className="max-w-xs text-gray-600">
               Clear direction and gentle guidance to help you stay aligned with
               what matters most.
@@ -50,8 +50,8 @@ export default function LandingPage() {
             <div className="bg-pink-400/90 rounded-xl p-4 mb-4 shadow-md">
               <Heart className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Momentum</h3>
-            <p className="max-w-xs">
+            <h3 className="text-xl font-bold my-2">Momentum</h3>
+            <p className="max-w-xs text-gray-600">
               Building forward motion that carries you through challenges with
               compassion.
             </p>

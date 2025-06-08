@@ -1,8 +1,4 @@
-import {
-  APP_DESCRIPTION,
-  SOCIAL_FARCASTER,
-  SOCIAL_GITHUB,
-} from "@/utils/config";
+import { SOCIAL_FARCASTER, SOCIAL_GITHUB } from "@/utils/config";
 import { PropsWithChildren } from "react";
 import Link from "next/link";
 
