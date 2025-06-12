@@ -3,6 +3,7 @@
 import { useFarcasterAccount } from "@/hooks/useFarcasterAccount";
 import { useFrameAdded } from "@/hooks/useFrameAdded";
 import { useAddFrame } from "@/hooks/useAddFrame";
+import { useIsFarcasterApp } from "@/hooks/useIsFarcasterApp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,6 +11,9 @@ export function Hero() {
   const { data: account } = useFarcasterAccount();
   const { data: frameAdded } = useFrameAdded();
   const addFrame = useAddFrame();
+  const { data: isFarcasterApp } = useIsFarcasterApp();
+  const messageText =
+    "I want to stay focused and start a 5-day momentum sprint. Let's go 🚀";
 
   function subscribeButton() {
     if (account && !frameAdded) {
@@ -69,14 +73,25 @@ export function Hero() {
 
         {/* CTA */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 w-full mb-4 md:mb-6">
-          <Link
-            href="https://farcaster.xyz/~/inbox/create/12580?text=I want to stay focused and start a 5-day momentum sprint. Let's go 🚀"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary rounded-full w-full md:btn-wide"
-          >
-            Try a 5-day sprint →
-          </Link>
+          {isFarcasterApp ? (
+            <Link
+              href={`https://farcaster.xyz/~/inbox/create/12580?text=${messageText}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary rounded-full w-full md:btn-wide"
+            >
+              Try a 5-day sprint →
+            </Link>
+          ) : (
+            <Link
+              href={`https://t.me/wslyvh?text=${messageText}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary rounded-full w-full md:btn-wide"
+            >
+              Try a 5-day sprint →
+            </Link>
+          )}
           {subscribeButton()}
         </div>
 
