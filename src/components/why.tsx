@@ -9,8 +9,8 @@ export function Why() {
       </h2>
       <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-600">
         Every check-in helps you reflect on what matters most and move forward
-        with confidence. It's not about doing more. It's about making better
-        decisions faster, that compound over time.
+        with confidence. It&apos;s not about doing more. It&apos;s about making
+        better decisions faster, that compound over time.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800">
