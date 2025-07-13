@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Testimonials() {
+export function Testimonials() {
   return (
     <section className="max-w-5xl mx-auto mb-8 py-16 px-4 text-center text-gray-800">
       <h2 className="text-sm text-accent font-medium mb-2">
