@@ -51,28 +51,34 @@ export function Hero() {
         />
 
         <div className="mb-2 md:mb-4">
-          <span className="badge badge-accent badge-outline rounded-full badge-sm md:badge-md">
-            ✨ Human-powered Accountability Coach
-          </span>
+          <a
+            href="https://www.ryanhoover.me/post/the-accountability-experiment"
+            className="badge badge-accent badge-outline rounded-full badge-sm md:badge-md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ✨ Human-powered accountability coach*
+          </a>
         </div>
 
         <h1 className="text-2xl md:text-5xl text-gray-800 font-extrabold mb-2 md:mb-4 leading-tight">
-          Build momentum,{" "}
+          Make better decisions
+          <br />
           <span className="bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent">
-            not pressure
+            Every day
           </span>
         </h1>
 
-        <p className="text-base md:text-xl text-gray-600">
-          Zendu helps solo founders and indie hackers cultivate consistency,
-          focus, and momentum through gentle guidance.
-        </p>
         <p className="text-base md:text-xl text-gray-600 mb-2 md:mb-8">
-          Daily progress, with Zendu.
+          Daily check-ins to help you stay clear, consistent, and focused on
+          what matters most.
         </p>
+        {/* <p className="text-base md:text-xl text-gray-600 mb-2 md:mb-8">
+          Daily progress, with Zendu.
+        </p> */}
 
         {/* CTA */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 w-full mb-4 md:mb-6">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 w-full">
           {isFarcasterApp ? (
             <Link
               href={`https://farcaster.xyz/~/inbox/create/12580?text=${messageText}`}
@@ -80,7 +86,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn btn-primary rounded-full w-full md:btn-wide"
             >
-              Try a 5-day sprint →
+              Join a 5-day sprint →
             </Link>
           ) : (
             <Link
@@ -89,12 +95,15 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn btn-primary rounded-full w-full md:btn-wide"
             >
-              Try a 5-day sprint →
+              Join a 5-day sprint →
             </Link>
           )}
           {subscribeButton()}
         </div>
-
+        <p className="text-xs text-base mb-4 md:mb-6">
+          *Free. One message per day. No signup hassle
+        </p>
+        {/* 
         <div className="flex flex-wrap justify-center gap-2 md:gap-6 text-base-content/60 font-medium">
           <div className="flex items-center gap-2">
             <div className="avatar-group -space-x-4 md:-space-x-6">
@@ -121,7 +130,7 @@ export function Hero() {
             </div>
             <span className="text-xs md:text-base">are building momentum</span>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

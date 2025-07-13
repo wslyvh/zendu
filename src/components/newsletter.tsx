@@ -5,9 +5,10 @@ export function Newsletter() {
       id="subscribe"
     >
       <div className="flex flex-col gap-4 items-center hero-content text-center">
-        <h3 className="text-2xl font-bold">Stay up to date</h3>
+        <h3 className="text-2xl font-bold">Get early access to Zendu</h3>
         <p className="text-gray-600 mb-4">
-          Subscribe to be the first to know when Zendu launches.
+          Stay in the loop as we launch Zendu, your daily check-in for clarity
+          and momentum.
         </p>
         <form
           className=" join"
@@ -37,7 +38,7 @@ export function Newsletter() {
                 <input
                   name="email"
                   type="email"
-                  placeholder="mail@site.com"
+                  placeholder="your@email.com"
                   required
                 />
                 <input

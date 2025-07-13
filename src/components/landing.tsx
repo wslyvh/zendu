@@ -9,15 +9,14 @@ export default function LandingPage() {
 
       <section className="max-w-5xl mx-auto mb-8 py-16 px-4 text-center text-gray-800">
         <p className="text-accent text-sm font-medium mb-2">
-          Embrace imperfection
+          Why Zendu works ✨
         </p>
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-          Progress over perfection
+          Daily progress. Long-term clarity.
         </h2>
         <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-600">
-          Zendu&apos;s philosophy is simple: embrace imperfection, celebrate
-          small wins, and keep moving forward. We believe that consistent daily
-          progress, no matter how small, creates lasting transformation.
+          Zendu keeps you aligned and moving through daily check-ins. It builds
+          clarity, commitment, and real momentum that compounds over time.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800">
@@ -28,8 +27,7 @@ export default function LandingPage() {
             </div>
             <h3 className="text-xl font-bold my-2">Consistency</h3>
             <p className="max-w-xs text-gray-600">
-              Small daily actions that compound into extraordinary results over
-              time.
+              Daily actions that compound into extraordinary results over time.
             </p>
           </div>
 
@@ -40,8 +38,7 @@ export default function LandingPage() {
             </div>
             <h3 className="text-xl font-bold my-2">Focus</h3>
             <p className="max-w-xs text-gray-600">
-              Clear direction and gentle guidance to help you stay aligned with
-              what matters most.
+              Cut through noise to stay aligned with what matters most.
             </p>
           </div>
 
@@ -52,8 +49,7 @@ export default function LandingPage() {
             </div>
             <h3 className="text-xl font-bold my-2">Momentum</h3>
             <p className="max-w-xs text-gray-600">
-              Building forward motion that carries you through challenges with
-              compassion.
+              Move forward until progress becomes a habit.
             </p>
           </div>
         </div>

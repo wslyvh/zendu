@@ -11,25 +11,29 @@ export function Layout(props: PropsWithChildren) {
         {props.children}
       </main>
 
-      <footer className="flex flex-col items-center justify-center mt-8 p-4 gap-2">
-        <p className="text-sm text-base-content/50">
-          Built with care for creators.
-        </p>
-        <p className="flex gap-4">
+      <footer className="flex flex-col items-center justify-center p-4">
+        <p>
+          Follow the journey on{" "}
           <Link
             href={`https://www.github.com/${SOCIAL_GITHUB}`}
+            className="link"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </Link>
+          </Link>{" "}
+          or{" "}
           <Link
             href={`https://farcaster.xyz/${SOCIAL_FARCASTER}`}
+            className="link"
             target="_blank"
             rel="noopener noreferrer"
           >
             Farcaster
           </Link>
+        </p>
+        <p className="text-sm text-base-content/50 mt-2">
+          Built with care for creators.
         </p>
       </footer>
     </div>
