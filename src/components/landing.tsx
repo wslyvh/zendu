@@ -1,6 +1,7 @@
 import { Newsletter } from "@/components/newsletter";
 import { Hero } from "@/components/hero";
 import { Target, Zap, Heart } from "lucide-react";
+import Testimonials from "./testimonials";
 
 export default function LandingPage() {
   return (
@@ -54,6 +55,8 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       <Newsletter />
     </main>
